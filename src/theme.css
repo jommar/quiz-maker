@@ -1,0 +1,53 @@
+/* src/theme.css */
+
+/* DARK MODE (default) */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  input, textarea, select {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* LIGHT MODE */
+  body.light-mode {
+    background-color: #f0f0f0;
+    color: #000000;
+  }
+  
+  body.light-mode button {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ccc;
+  }
+  
+  body.light-mode input,
+  body.light-mode textarea,
+  body.light-mode select {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+  
